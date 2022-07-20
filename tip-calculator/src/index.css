@@ -5,6 +5,7 @@ html {
   padding-top: 13rem;
 }
 
+/* Big container */
 .container {
   border-radius: 3%;
   background-color: white;
@@ -13,12 +14,25 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 1.5rem;
 }
 
-.element1, .element2 {
+/* Big components */
+.element1, .reset {
   width: 350px;
   height: 350px;
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 3%;
+}
+
+/* Reset component  */
+.reset {
+  background-color: hsl(183, 100%, 15%);
+}
+
+.element1 {
+  border: 1px solid black;
+  margin-right: 1.5rem;
 }

@@ -1,8 +1,10 @@
+import Reset from "./components/Reset";
+
 function App() {
   return (
     <div className="container">
       <div className="element1">Element 1</div>
-      <div className="element2">Element 2</div>
+      <Reset />
     </div> 
   );
 }

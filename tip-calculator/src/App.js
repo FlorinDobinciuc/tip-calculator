@@ -1,9 +1,10 @@
 import Reset from "./components/Reset";
+import Bill from "./components/Bill";
 
 function App() {
   return (
     <div className="container">
-      <div className="element1">Element 1</div>
+      <Bill />
       <Reset />
     </div> 
   );

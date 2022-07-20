@@ -18,12 +18,10 @@ html {
 }
 
 /* Big components */
-.element1, .reset {
+.bill, .reset {
   width: 350px;
   height: 350px;
   display: flex;
-  justify-content: center;
-  align-items: center;
   border-radius: 3%;
 }
 
@@ -32,7 +30,26 @@ html {
   background-color: hsl(183, 100%, 15%);
 }
 
-.element1 {
-  border: 1px solid black;
+/* Bill component */
+.bill {
+  /* border: 1px solid black; */
   margin-right: 1.5rem;
+}
+
+/* Input component */
+.input {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0.5rem;
+}
+
+label {
+  padding-bottom: 5px;
+}
+
+.text-input {
+  background-color: hsl(189, 41%, 97%);
+  width: 330px;
+  height: 35px;
+  border: none;
 }

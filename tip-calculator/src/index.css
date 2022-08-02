@@ -1,0 +1,55 @@
+html {
+  background-color: hsl(185, 41%, 84%);
+  display: flex;
+  justify-content: center;
+  padding-top: 13rem;
+}
+
+/* Big container */
+.container {
+  border-radius: 3%;
+  background-color: white;
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+}
+
+/* Big components */
+.bill, .reset {
+  width: 350px;
+  height: 350px;
+  display: flex;
+  border-radius: 3%;
+}
+
+/* Reset component  */
+.reset {
+  background-color: hsl(183, 100%, 15%);
+}
+
+/* Bill component */
+.bill {
+  /* border: 1px solid black; */
+  margin-right: 1.5rem;
+}
+
+/* Input component */
+.input {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0.5rem;
+}
+
+label {
+  padding-bottom: 5px;
+}
+
+.text-input {
+  background-color: hsl(189, 41%, 97%);
+  width: 330px;
+  height: 35px;
+  border: none;
+}

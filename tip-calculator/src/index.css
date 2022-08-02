@@ -18,7 +18,8 @@ html {
 }
 
 /* Big components */
-.bill, .reset {
+.bill,
+.reset {
   width: 350px;
   height: 350px;
   display: flex;
@@ -34,13 +35,14 @@ html {
 .bill {
   /* border: 1px solid black; */
   margin-right: 1.5rem;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Input component */
 .input {
   display: flex;
-  flex-direction: column;
-  padding-left: 0.5rem;
+  flex-wrap: wrap;
 }
 
 label {
@@ -52,4 +54,26 @@ label {
   width: 330px;
   height: 35px;
   border: none;
+}
+
+.tip {
+  width: 95px;
+  height: 40px;
+  background-color: hsl(183, 100%, 15%);
+  border-radius: 5%;
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 0.5rem;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }

@@ -1,5 +1,5 @@
-import Reset from "./components/Reset";
-import Bill from "./components/Bill";
+import Reset from "./components/reset/Reset";
+import Bill from "./components/bill/Bill";
 
 function App() {
   return (

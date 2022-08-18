@@ -43,6 +43,7 @@ html {
 .input {
   display: flex;
   flex-wrap: wrap;
+  padding-top: 1rem;
 }
 
 label {
@@ -66,6 +67,19 @@ label {
   font-size: 1.5rem;
   margin-right: 1rem;
   margin-bottom: 1rem;
+}
+
+.custom-tip {
+  width: 95px;
+  height: 40px;
+  background-color: hsl(189, 41%, 97%);
+  border-radius: 5%;
+  color: hsl(186, 14%, 43%);
+  text-align: center;
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  border: none;
 }
 
 p {

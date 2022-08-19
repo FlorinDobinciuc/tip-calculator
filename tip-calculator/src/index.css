@@ -29,6 +29,29 @@ html {
 /* Reset component  */
 .reset {
   background-color: hsl(183, 100%, 15%);
+  display: flex;
+  flex-direction: column;
+}
+
+.resetButton {
+  background-color: hsl(185, 41%, 84%);
+  width: 260px;
+  height: 40px;
+  align-self: center;
+  border: none;
+  border-radius: 3%;
+  margin-top: 5rem;
+}
+
+.resetButton:hover {
+  background-color: hsl(186, 14%, 43%);
+}
+
+.tipAmount {
+  color: white;
+  width: 260px;
+  align-self: center;
+  margin-top: 1rem;
 }
 
 /* Bill component */

@@ -40,7 +40,7 @@ html {
   align-self: center;
   border: none;
   border-radius: 3%;
-  margin-top: 5rem;
+  margin-top: 3rem;
 }
 
 .resetButton:hover {
@@ -122,4 +122,12 @@ section {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+}
+
+.initial-amount {
+  display: flex;
+  flex-direction: row-reverse;
+  font-size: x-large;
+  color: white;
+  padding-right: 1rem;
 }

@@ -1,12 +1,8 @@
-import Reset from "./components/reset/Reset";
-import Bill from "./components/bill/Bill";
-
 function App() {
   return (
     <div className="container">
-      <Bill />
-      <Reset />
-    </div> 
+      <h1>Hello World!</h1>
+    </div>
   );
 }
 
